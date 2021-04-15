@@ -24,13 +24,18 @@ h1 {
 
 button {
     background-color: #292929;
-    outline-style: none;
-    font-family: opensans;
-    text-align: center;
-    font-size: 25px;
-    padding: 10px 0px;
-    color: white;
-    position: fixed;
-    top: 85%;
-    left: 44.3%;
+   font-family: opensans;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px 0px;
+	color: white;
+
+	outline-style:none;
+	border:none;
+	cursor:pointer;
+
+	position:fixed;
+	width:50%;
+	bottom : 10%;
+	left : 25%;
 }
