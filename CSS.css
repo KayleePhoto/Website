@@ -19,16 +19,17 @@ h1 {
     color: white;
     text-align: center;
     margin-top: 400px;
+    position: fixed;
 }
 
 button {
     background-color: #292929;
     outline-style: none;
     font-family: opensans;
-	text-align: center;
-	font-size: 25px;
-	padding: 10px 0px;
-	color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0px;
+    color: white;
     position: fixed;
     top: 85%;
     left: 44.3%;
