@@ -16,10 +16,16 @@ body {
 }
 
 h1 {
-    color: white;
-    text-align: center;
-    margin-top: 400px;
-    position: fixed;
+    font-family: opensans;
+	color: white;
+	text-align: center;
+	font-size:25px;
+
+	position: fixed;
+	width: 90%;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 button {
