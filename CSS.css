@@ -23,13 +23,13 @@ h1 {
 
 button {
     background-color: #292929;
-    color: white;
-    height: 50px;
-    width: 250px;
-    border: none;
-    margin: 0;
-    position: absolute;
+    outline-style: none;
+    font-family: opensans;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px 0px;
+	color: white;
+    position: fixed;
     top: 85%;
-/*   IT DOESN'T WANT TO ADD THE ChANGE   */
     left: 44.3%;
 }
