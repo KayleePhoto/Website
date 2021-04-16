@@ -7,6 +7,7 @@
 
     <body>
         <h1 id="text"></h1>
+		  <p id="twitch" href="https://www.twitch.tv/klingerhq"></p>
         
         <div class="button">
         <button onclick="typeWriter()">?</button>
@@ -22,7 +23,12 @@
 						document.getElementById("text").innerHTML += txt.charAt(i);
 						i++;
 						setTimeout(typeWriter, speed);
+						twitch();
 					}
+				}
+
+				function twitch() {
+					document.getElementById("twitch").innerHTML = "https://www.twitch.tv/klingerhq";
 				}
         </script>
     </body>

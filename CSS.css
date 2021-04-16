@@ -6,13 +6,6 @@
 body {
     background: #262626;
     font-family: opensans;
-
-    touch-action: manipulation;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none; /* Old versions of Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Chrome, Opera and Firefox */
 }
 
 h1 {
@@ -26,10 +19,18 @@ h1 {
 	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+
+	
+	touch-action: manipulation;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Chrome, Opera and Firefox */
 }
 
 button {
-    background-color: #292929;
+    background-color: #303030;
    font-family: opensans;
 	text-align: center;
 	font-size: 25px;
@@ -42,6 +43,27 @@ button {
 
 	position:fixed;
 	width:50%;
-	bottom : 10%;
-	left : 25%;
+	bottom: 10%;
+	left: 25%;
+
+
+	touch-action: manipulation;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Chrome, Opera and Firefox */
+}
+
+p {
+	font-family: opensans;
+	color: white;
+	text-align: center;
+	font-size: 50%;
+
+	position: fixed;
+	width: 90%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
