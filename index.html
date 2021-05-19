@@ -7,7 +7,6 @@
 
     <body>
         <h1 id="text"></h1>
-	<p id="twitch"></p>
         
         <div class="button">
         <button onclick="typeWriter()">?</button>
@@ -15,7 +14,7 @@
 
         <script>
             var i = 0;
-            var txt = 'Ur Mom';
+            var txt = 'Deez Nuts';
             var speed = 75;
 
             function typeWriter() {
@@ -23,13 +22,8 @@
 		    document.getElementById("text").innerHTML += txt.charAt(i);
 		    i++;
 		    setTimeout(typeWriter, speed);
-		    twitch();
 		}
 	    }
-
- 	    function twitch() {
-		document.getElementById("twitch").innerHTML = "I was going to put a link here\nbut I decided against that.";
-	    }
-        </script>
+ 	</script>
     </body>
 </html>
